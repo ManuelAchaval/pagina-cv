@@ -1,3 +1,78 @@
-body{
+body {
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #D2E8E3;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(white, rgb(101, 100, 100));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover,
+a:focus {
+    background-size: 100% 2px;
+}
+
+
+
+nav a {
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    background-color: #b2b6b5;
+}
+
+/***********************clases*******************************/
+.container-flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.perfil {
+    margin-top: 45px;
+}
+
+.perfil nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo {
+    background-color: #10403B;
+    padding: 20px;
+    color: #F2E3D5;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.lista li {
+    background-color: #fffefe70;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s;
+}
+
+.lista li:hover {
+    background-color: #e0e0e0;
+}
+
