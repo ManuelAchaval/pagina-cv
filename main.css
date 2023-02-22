@@ -23,7 +23,8 @@ a:focus {
 nav a {
     margin: 10px;
 }
-footer{
+
+footer {
     text-align: center;
     background-color: #b2b6b5;
 }
@@ -42,7 +43,7 @@ footer{
 }
 
 .perfil {
-    margin-top: 45px;
+    margin-top: 70px;
 }
 
 .perfil nav {
@@ -74,5 +75,16 @@ footer{
 
 .lista li:hover {
     background-color: #e0e0e0;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
 }
 
