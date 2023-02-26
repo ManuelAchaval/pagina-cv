@@ -48,7 +48,7 @@ footer {
 
 .perfil nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .titulo {
@@ -86,5 +86,21 @@ footer {
     position: fixed;
     top: 0;
     width: 100%
+}
+.navbar{
+    z-index: 100;
+}
+
+#masInfo {
+    background: #10403B;
+}
+
+#masInfo:hover {
+    background: #D2E8E3;
+    color: black;
+}
+
+#cambiar-color {
+    background: #10403B;
 }
 
